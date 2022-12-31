@@ -13,9 +13,7 @@ my car:
 
 
 
-- [masking "%"](cars.md%23%255E781e44)
-- [with the ^](cars.md%23%5E0efd78)
-- [with the #](cars.md%23random)
+- [how this look?]](cars.md%5E781e44)
 
 
 
@@ -25,19 +23,16 @@ my car:
 
 
 
----
 
 
 - [fc bayern](soccer.md%23%5E6baacc)
 
 
----
+
 
 [barca](soccer.md%23%5Ee927dd)
 
 
-
---- 
 
 
 [Real_Madrid](soccer.md%23Real_Madrid)
