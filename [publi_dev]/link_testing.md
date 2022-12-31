@@ -9,13 +9,13 @@ my animal:
 
 
 my car:
-	[my car](cars.md#my_car)
+	[my car](cars.md%23my_car)
 
 
 
-- [masking "%"](cars.md#%5E781e44)
-- [with the ^](cars.md#^0efd78)
-- [with the #](cars.md#random)
+- [masking "%"](cars.md%23%255E781e44)
+- [with the ^](cars.md%23%5E0efd78)
+- [with the #](cars.md%23random)
 
 
 
@@ -28,19 +28,19 @@ my car:
 ---
 
 
-- [fc bayern](soccer.md#^6baacc)
+- [fc bayern](soccer.md%23%5E6baacc)
 
 
 ---
 
-[barca](soccer.md#^e927dd)
+[barca](soccer.md%23%5Ee927dd)
 
 
 
 --- 
 
 
-[Real_Madrid](soccer.md#Real_Madrid)
+[Real_Madrid](soccer.md%23Real_Madrid)
 
 
 
