@@ -15,6 +15,6 @@
 [link_header](link_header.md)
 
 
-[Tester_1](link_header.md#Tester_1)
+[Tester-1](link_header.md#Tester-1)
 
 
