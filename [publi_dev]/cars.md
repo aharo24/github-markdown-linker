@@ -2,7 +2,7 @@
 
 
 
-hello I have a car ^8f98eb
+hello I have a car 
 
 
 
@@ -19,7 +19,7 @@ hello I have a car ^8f98eb
 
 
 
-a michilin car tire ! ^da99a0
+a michilin car tire ! 
 
 
 
