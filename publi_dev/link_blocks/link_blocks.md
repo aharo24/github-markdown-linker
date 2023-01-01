@@ -2,13 +2,10 @@
 
 **my car:**
 
-[The Cars Engine](cars.md^the-cars-engine)
+[engine](cars.md#^745732)
 
-[The Cars Tires](cars.md^the-cars-tire)
 
-[](cars.md#^c98d6d)
-
-[](cars.md#^3ebf0b)
+- [tire](cars.md#^1b50d9)
 
 
 
