@@ -12,9 +12,5 @@
 
 ---
 
-[link_header](link_header.md)
-
-
-[Tester-1](link_header.md#Tester-1)
-
+[nospace](link_header.md#nospace)
 
