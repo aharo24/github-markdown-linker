@@ -3,20 +3,7 @@
 
 
 **my car:**
-[how does this look?](cars.md#^8f98eb)
 
+[the cars engine ](cars.md#the-cars-engine)
 
-
-
-
-- [a car tire](cars.md#^da99a0)
-
-
---- 
-
-
-
-[the cars engine ](cars.md#^53a95b)
-
-
-
+[the cars tires](cars.md#the-cars-tires)
