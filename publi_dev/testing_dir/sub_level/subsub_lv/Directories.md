@@ -1,17 +1,17 @@
 
 shows?
-![](aharo24_71.png)
+![](../../../../z/aharo24_71.png)
 
 ---
 
 this one?
-![](aharo24_72.png)
+![](../../../../z/aharo24_72.png)
 
 
 ---
 
 
-![](aharo24_73.png)
+![](../../../../z/aharo24_73.png)
 
 
 
