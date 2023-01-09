@@ -2,6 +2,10 @@
 tools/
 linkFixer.py
 dev/
+imageFixer.py
+image_fixer.py
+imageFixer.py
+
 
 # Ignore the ".obsidian" folder
 /.obsidian
