@@ -5,7 +5,7 @@ dev/
 image_fixer.py
 link_fixer.py
 z.py
-
+test.py
 # Ignore the ".obsidian" folder
 /.obsidian
 
