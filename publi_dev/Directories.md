@@ -2,6 +2,6 @@
 
 
 ran
-![](aharo24_77.png)
+![](../z/aharo24_78.png)
 
 
