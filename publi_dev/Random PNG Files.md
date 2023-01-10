@@ -1,14 +1,7 @@
-zeta
-![](z_6.png)
 
 
+quiz
+![](Screen%20Shot%202022-09-18%20at%208.30.39%20PM.png)
 
-
-
-screenshot
-![](Screenshot%202022-11-16%20at%202.12.37%20AM.png)
-
-
-
-
-
+vscode
+![](saifvbhasbcvjuhabsbcvjasvb.png)
