@@ -1,5 +1,5 @@
 GOKU
-![](aharo24_5.png)
+![](../z/aharo24_5.png)
 
 
 ---
@@ -9,5 +9,5 @@ GOKU
 
 random
 
-![](Screenshot%202023-01-11%20at%206.41.17%20PM.png)
+![](../z/Screenshot%202023-01-11%20at%206.41.17%20PM.png)
 
