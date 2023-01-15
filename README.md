@@ -6,9 +6,9 @@ Open source universal markdown linker for markdown editors, management apps, and
 --- 
 # OS Support
 
-## MacOS *(priority)  ✅
-## Linux  ✅ 
-## Windows ✅
+### MacOS *(priority)  ✅
+### Linux  ✅ 
+### Windows ✅
 
 ---
 
@@ -47,6 +47,7 @@ Open source universal markdown linker for markdown editors, management apps, and
 
 ---
 # Installation
+
 ## requirements
 
 
