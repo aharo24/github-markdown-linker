@@ -1,13 +1,23 @@
-# github-markdown-linker
+# universal-markdown-linker
 
+**Short summary.**
+Open source universal markdown linker for markdown editors, management apps, and note taking apps. Correctly link your markdown files from the apps supported to GitHub without the struggle of manually linking the files path manually. 
 
+--- 
+# OS Support
 
-Say Goodbye to Broken Links in Your GitHub Repositories! Our Python script is the ultimate solution for maintaining accurate links within your markdown files. No more searching through directories, our script does the work for you. With just a few simple commands, your markdown files will be updated and all links will be guaranteed to work, even if the file structure of your repository changes.
-
+## MacOS *(priority)  ✅
+## Linux  ✅ 
+## Windows ✅
 
 ---
 
-## works for the following markdown editors, knowledge management apps, and note-taking apps.
+# Editor/Apps Support
+
+#### works for the following:
+### Markdown Editors ✅
+### Knowledge Management Apps ❌ 
+### Note-taking Apps. ✅
 
 -   Obsidian
 -   Evernote
@@ -34,7 +44,10 @@ Say Goodbye to Broken Links in Your GitHub Repositories! Our Python script is th
 -   Simplenote
 -   Standard Notes
 
+
 ---
+# Installation
+## requirements
 
 
 
