@@ -8,7 +8,7 @@ can see this?
 
 hbu this?
 
-![](../z/aharo24_116.png)
+![](../z/../z/aharo24_116.png)
 
 
 ---
