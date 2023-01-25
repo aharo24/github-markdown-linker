@@ -19,3 +19,6 @@ Instructions
 [Termux](https://github.com/termux/termux-packages/tree/master/packages/starship)
 
 `pkg install starship`
+
+
+
