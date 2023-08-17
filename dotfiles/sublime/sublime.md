@@ -9,16 +9,16 @@
 ## Packages
 #subl/packages
 
-- ![](../../z/aharo24_2.png)
+- ![](../z/aharo24_2.png)
 
 
 ## colorschemes
 
 - search colorschemes on the web first
 	- 
-	- ![](../../z/aharo24_3.png)
+	- ![](../z/aharo24_3.png)
 - colorscheme.config
-	- ![](../../z/aharo24_4.png)
+	- ![](../z/aharo24_4.png)
 
 
 
@@ -41,10 +41,10 @@
 - steps to change font
 	- 
 	- 
-	- ![](../../z/aharo24_7.png)
+	- ![](../z/aharo24_7.png)
 - 
 - my font settings
-	- ![](../../z/aharo24_8.png)
+	- ![](../z/aharo24_8.png)
 - 
 
 
