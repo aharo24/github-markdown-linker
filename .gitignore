@@ -1,12 +1,7 @@
 
-tools/
-linkFixer.py
 dev/
-image_fixer.py
-link_fixer.py
-z.py
-test.py
-tester.py
+link.py
+unlink.py
 
 # Ignore the ".obsidian" folder
 /.obsidian
