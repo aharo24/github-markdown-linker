@@ -25,12 +25,12 @@ import lombok.Setter;
 @Entity
 public class ApplicationUser {
   @Id
-  @GeneratedValue(strategy = GenerationType.IDENTITY)
+  @GeneratedValue(strategy = GenerationType.AUTO)
   @Column(name = "user_id")
   private Long id;
 
   @Column(name = "first_name")
-  private String firtName;
+  private String firstName;
 
   @Column(name = "last_name")
   private String lastName;
@@ -50,20 +50,24 @@ public class ApplicationUser {
   private String password;
 
   @ManyToMany(fetch = FetchType.EAGER)
-  @JoinTable(name = "user_role_junction", joinColumns = { @JoinColumn(name = "user_id") }, inverseJoinColumns = {
-      @JoinColumn(name = "role_id") })
-
+  @JoinTable(name = "user_role_junction", joinColumns = @JoinColumn(name = "user_id"), inverseJoinColumns = @JoinColumn(name = "role_id"))
   private Set<Role> authorities;
 
-  public ApplicationUser(){
-    this.authorities= new HashSet<>();
+  private Boolean enabled;
+
+  @Column(nullable = true)
+  @JsonIgnore
+  private Long verification;
+
+  public ApplicationUser() {
+    this.authorities = new HashSet<>();
   }
 
   @Override
   public String toString() {
-    return "ApplicationUser [id=" + id + ", firtName=" + firtName + ", lastName=" + lastName + ", email=" + email
+    return "ApplicationUser [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + ", email=" + email
         + ", phone=" + phone + ", dateOfBirth=" + dateOfBirth + ", username=" + username + ", password=" + password
-        + ", authorities=" + authorities + "]";
+        + ", authorities=" + authorities + ", enabled=" + enabled + ", verification=" + verification + "]";
   }
 
 }
