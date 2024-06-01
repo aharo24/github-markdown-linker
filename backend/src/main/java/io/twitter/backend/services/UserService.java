@@ -7,6 +7,8 @@ import org.springframework.stereotype.Service;
 
 import io.twitter.backend.models.Role;
 import io.twitter.backend.exeptions.EmailAlreadyTakenExeption;
+import io.twitter.backend.exeptions.EmailFailedToSendException;
+import io.twitter.backend.exeptions.IncorrectVerificationCodeException;
 import io.twitter.backend.exeptions.UserDoesNotExistException;
 import io.twitter.backend.models.ApplicationUser;
 import io.twitter.backend.models.RegistrationObject;
@@ -17,11 +19,13 @@ import io.twitter.backend.repositories.UserRepository;
 public class UserService {
   private final UserRepository userRepo;
   private final RoleRepository roleRepo;
+  private final MailService mailService;
 
   @Autowired
-  public UserService(UserRepository userRepo, RoleRepository roleRepo) {
+  public UserService(UserRepository userRepo, RoleRepository roleRepo, MailService mailService) {
     this.userRepo = userRepo;
     this.roleRepo = roleRepo;
+    this.mailService = mailService;
   }
 
   public ApplicationUser getUserByUsername(String username) {
@@ -74,7 +78,29 @@ public class UserService {
     ApplicationUser user = userRepo.findByUsername(username).orElseThrow(UserDoesNotExistException::new);
 
     user.setVerification(generateVerificationNumber());
+
+    try {
+      mailService.sendEmail(user.getEmail(), "subject~ Your verification code",
+          "content~ Here is your verification code: " + user.getVerification());
+      userRepo.save(user);
+    } catch (Exception e) {
+      throw new EmailFailedToSendException();
+    }
     userRepo.save(user);
+
+  }
+
+  public ApplicationUser verifyEmail(String username, Long code) {
+    ApplicationUser user = userRepo.findByUsername(username).orElseThrow(UserDoesNotExistException::new);
+
+    if (code.equals(user.getVerification())) {
+      user.setEnabled(true);
+      user.setVerification(null);
+
+      return userRepo.save(user);
+    } else {
+      throw new IncorrectVerificationCodeException();
+    }
 
   }
 
@@ -83,8 +109,8 @@ public class UserService {
     return name + generatedNumber;
 
   }
-  
-  private Long generateVerificationNumber(){
+
+  private Long generateVerificationNumber() {
 
     return (long) Math.floor(Math.random() * 100_000_000);
   }
